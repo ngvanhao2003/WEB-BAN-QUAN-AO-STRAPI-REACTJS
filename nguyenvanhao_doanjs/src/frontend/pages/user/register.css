@@ -1,0 +1,30 @@
+/* register.css */
+.registerForm h1{
+    text-align: center;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    color: darkslateblue;
+}
+.registerForm {
+    max-width: 500px;
+    margin: 50px auto;
+    padding: 20px;
+    background-color: white; /* White background for the form container */
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+.registerForm .btn-primary {
+    width: 100%;
+    padding: 10px;
+    background-color: #007bff;
+    border: none;
+    border-radius: 4px;
+    color: white;
+    font-size: 16px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+}
+
+.registerForm .btn-primary:hover {
+    background-color: #7bd33c;
+}

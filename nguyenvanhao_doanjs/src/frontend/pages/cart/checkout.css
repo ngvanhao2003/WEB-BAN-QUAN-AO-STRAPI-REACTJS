@@ -1,0 +1,52 @@
+/* Đặt form trong container trung tâm */
+.cart {
+    display: flex;
+    justify-content: center; /* Canh giữa theo chiều ngang */
+    align-items: center;    /* Canh giữa theo chiều dọc */
+    min-height: 100vh;      /* Chiều cao tối thiểu bằng 100% chiều cao của viewport */
+}
+
+/* Canh giữa tiêu đề */
+.cart h3{
+    text-align: center;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    color: darkslateblue;
+}
+
+/* Đặt một số padding và width cho form */
+form {
+    max-width: 500px;  /* Đặt chiều rộng tối đa cho form */
+    margin: 50px auto; /* Tạo khoảng cách phía trên và canh giữa theo chiều ngang */
+    padding: 20px;
+    background-color: white; /* Màu nền trắng */
+    border-radius: 10px;      /* Bo tròn góc */
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1); /* Đổ bóng nhẹ */
+}
+
+/* Khoảng cách giữa các phần tử trong form */
+form .mb-3 {
+    margin-bottom: 20px;
+}
+
+/* Canh giữa tiêu đề form */
+form h3 {
+    margin-bottom: 20px;
+}
+
+/* Style cho nút bấm chính */
+form .btn-primary {
+    width: 100%;
+    padding: 10px;
+    background-color: #007bff;
+    border: none;
+    border-radius: 4px;
+    color: white;
+    font-size: 16px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+}
+
+/* Hiệu ứng hover cho nút bấm */
+form .btn-primary:hover {
+    background-color: #7bd33c;
+}

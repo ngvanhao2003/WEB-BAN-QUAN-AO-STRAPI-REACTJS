@@ -1,0 +1,55 @@
+/* products.css */
+
+.products {
+    padding: 20px;
+  }
+  
+
+  .products h1 {
+    text-align: center;
+    margin-bottom: 30px;
+    font-size: 24px;
+    font-family: "Arial", sans-serif; /* Thay đổi font chữ tại đây */
+  }
+  
+  /* product-item.css */
+  
+  .productItem {
+    margin-bottom: 20px;
+  }
+  
+  .card {
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+  }
+  
+  .product-Item {
+    transition: transform 0.3s ease;
+  }
+  
+  .product-Item:hover {
+    transform: translateY(-5px);
+  }
+  
+  .card img {
+    display: block;
+    margin: 0 auto;
+    width: 100%;
+    height: auto;
+    max-width: 250px;
+    max-height: 250px;
+  }
+  
+  .card-title {
+    font-size: 18px;
+    margin-top: 10px;
+    text-align: center;
+  }
+  
+  .card-price {
+    color: #007bff; /* Màu xanh dương */
+    font-size: 16px;
+    text-align: center;
+  }
+  

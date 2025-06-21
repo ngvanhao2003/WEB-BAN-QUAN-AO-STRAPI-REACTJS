@@ -1,0 +1,61 @@
+/* products.css */
+.card a {
+    color: #000; /* Màu đen */
+    text-decoration: none; /* Loại bỏ gạch chân */
+  }
+.products {
+    padding: 20px;
+  }
+  
+  .products h1 {
+    text-align: center;
+    margin-bottom: 30px;
+    font-size: 24px;
+  }
+  
+  /* product-item.css */
+  
+  .productItem {
+    flex: 1 1 calc(25% - 20px); /* Đảm bảo thẻ card chiếm 25% chiều rộng container, trừ đi khoảng cách */
+    box-sizing: border-box; /* Đảm bảo padding và border được tính vào kích thước tổng */
+    margin-bottom: 20px;
+  }
+  
+  .card {
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    border: 1px solid #ccc;
+    transition: transform 0.3s ease;
+    overflow: hidden; /* Đảm bảo nội dung không tràn ra ngoài */
+  }
+  
+  .product-Item {
+    transition: transform 0.3s ease;
+  }
+  
+  .product-Item:hover {
+    transform: translateY(-5px);
+  }
+  
+  .card img {
+    display: block;
+    margin: 0 auto;
+    max-width: 250px;
+    max-height: 250px;
+    width: 100%;
+    height: auto; /* Đảm bảo hình ảnh co giãn theo kích thước của thẻ card */
+  }
+  
+  .card-title {
+    font-size: 18px;
+    margin-top: 10px;
+    text-align: center;
+  }
+  
+  .card-price {
+    color: #007bff; /* Màu xanh dương */
+    font-size: 16px;
+    text-align: center;
+  }
+  

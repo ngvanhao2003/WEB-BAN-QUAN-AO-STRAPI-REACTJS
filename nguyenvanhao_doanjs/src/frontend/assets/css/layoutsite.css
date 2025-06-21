@@ -1,0 +1,99 @@
+/* Menu.css */
+
+.footer .item p, footer .item a{
+    margin: 0 0 0 10px;
+    width: calc(100%- 24px);
+}
+.footer{
+    background-color: #f7f7f7;
+}
+.footer a, .footer p{
+    color: var(--text-color);
+    font-family: var(--font-base);
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 20px;
+    padding: 0 0 0;
+}
+.footer .item{
+    display: flex;
+    margin: 20px 0;
+}
+.footer ul li{
+    display: block;
+    margin-top: 8px;
+}
+.footer .title-footer, .footer h4 {
+    color: var(--title-color-footer);
+    font-family: var(--font-base);
+    font-size: 22px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 20px;
+    text-transform: uppercase;
+    margin-bottom: 18px;
+    margin-top: 15px;
+}
+.footer ul {
+    list-style: none;
+    padding: 0;
+}
+.form-subscribe {
+    display: flex;
+    flex-flow: column;
+}
+.form-subscribe .formchip form button {
+    color: whitesmoke;
+    background-color: #2a3f50;
+    font-size: 14px;
+    font-style: normal;
+    height: 38px;
+    font-family: 'Roboto', sans-serif;
+    font-weight: 700;
+    line-height: 29px;
+    width: 84px;
+    border: none;
+    position: absolute;
+    right: 0;
+}
+.title-module h2 {
+    font-size: 24px;
+    font-weight: bold;
+    font-family: var(--font-base);
+}
+.title-module {
+    font-size: 24px;
+    font-weight: bold;
+    justify-content: space-between;
+    align-items: center;
+}
+article, aside, figcaption, figure, footer, header, hgroup, main, nav, section {
+    display: block;
+}
+.swiper-button {
+    position: relative;
+}
+element.style{
+    margin-top: 36px;
+}
+.home-slider {
+    padding: 0 10px;
+}
+.swiper-container-autoheight .swiper-wrapper {
+    align-items: flex-start;
+}
+.swiper-container-autoheight, .swiper-container-autoheight .swiper-slide {
+    height: auto;
+}
+.swiper-slide{
+    flex-shrink: 0;
+}
+.layout-contact .form-contact .group_contact input, .layout-contact .form-contact .group_contact textarea {
+    border: 1px solid #E0E0E0;
+    width: 100%;
+    margin-bottom: 15px;
+    outline: none;
+    font-size: 14px;
+    border-radius: 3px;
+}
